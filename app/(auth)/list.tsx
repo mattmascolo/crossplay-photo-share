@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { Ionicons } from '@expo/vector-icons';
 import * as ImagePicker from 'expo-image-picker';
 import { useAuth } from '../../provider/AuthProvider';
-import * as FileSystem from 'expo-file-system';
 import { decode } from 'base64-arraybuffer';
 import { supabase } from '../../config/initSupabase';
 import { FileObject } from '@supabase/storage-js';
@@ -125,7 +124,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: '#151515',
+    backgroundColor: 'rgb(30 41 59)',
   },
   fab: {
     borderWidth: 1,
@@ -136,7 +135,7 @@ const styles = StyleSheet.create({
     bottom: 40,
     right: 30,
     height: 70,
-    backgroundColor: '#2b825b',
+    backgroundColor: 'rgb(15 23 42)',
     borderRadius: 100,
   },
 });

@@ -16,7 +16,16 @@
         "expo-image-picker",
         {
           "photosPermission": "Selecct and upload images.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
           "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+          "isAccessMediaLocationEnabled": true
         }
       ],
       "expo-router"
