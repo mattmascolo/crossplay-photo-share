@@ -4,6 +4,11 @@
     "web": {
       "bundler": "metro"
     },
+    "ios": {
+      "infoPlist": {
+        "NSPhotoLibraryAddUsageDescription": "We need access to save photos to your library"
+      }
+    },
     "name": "myCloudApp",
     "slug": "myCloudApp",
     "plugins": [
